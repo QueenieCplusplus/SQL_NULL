@@ -1,5 +1,10 @@
 # SQL_NULL
-ifnull()
+
+there is no nvl in mySQL
+ifnull() and is null statement work here in MySQL!
+
+
+* Syntax
 
 gender = IFNULL('F', gander) 
 
@@ -8,6 +13,8 @@ gender = IFNULL('F', gander)
 
 
 句子則為 is null || is not null
+
+* SQL Script
 
     CREATE PROCEDURE `uspUserRequest`(
         UId int,
